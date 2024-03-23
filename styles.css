@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.left-column,
+.right-column {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left-column {
+    max-width: 300px;
+}
+
+.right-column {
+    max-width: 800px;
+}
+
+.profile-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.about-section h2,
+.skills-section h2,
+.projects-section h2,
+.experience-section h2,
+.education-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-section ul,
+.project-skills,
+.experience-skills,
+.education-skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-row {
+    padding-left: 20px;
+}
+.education-row {
+    padding-left: 20px;
+}
+
+.skills-section li,
+.project-skills li,
+.experience-skills li,
+.education-skills li {
+    background-color: rgba(0, 0, 255, 0.1);
+    color: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.project-tile {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.project-tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center; /* Center align the content */
+    padding-top: 80px; /* Add padding around the content */
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .left-column {
+        width: 30%;
+    }
+
+    .right-column {
+        width: 70%;
+    }
+
+    .projects-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+}
