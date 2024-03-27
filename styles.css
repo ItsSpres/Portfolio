@@ -23,7 +23,6 @@ body {
 
 .left-column {
     max-width: 300px;
-    
 }
 
 .right-column {
@@ -128,7 +127,6 @@ footer {
     .left-column {
         width: 30%;
         padding-right: 30px;
-        text-align: left;
     }
 
     .right-column {
@@ -142,5 +140,3 @@ footer {
         gap: 20px;
     }
 }
-
-@media 
