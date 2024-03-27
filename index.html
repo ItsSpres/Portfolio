@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button id="dark-mode-toggle">Dark Mode</button>
     <div class="container">
         <div class="left-column">
             <div class="profile-section">
@@ -102,5 +103,14 @@
         <p>I got the idea for this setup from social media applications like Instagram.</p>
         <p>&copy; 2024 Ian Spresney</p>
     </footer>
+
+    <script>
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
