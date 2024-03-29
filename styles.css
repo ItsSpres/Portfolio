@@ -80,6 +80,8 @@ a {
     height: 100px;
     border-radius: 50%;
     justify-content: center;
+    text-align: center;
+
 }
 .profile__name {
     font-size: var(--h2-font-size);
