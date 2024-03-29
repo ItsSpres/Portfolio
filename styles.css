@@ -87,7 +87,7 @@ a {
 
 .profile__social {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     column-gap: .75rem;
   }
   
