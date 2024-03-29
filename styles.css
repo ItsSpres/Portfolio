@@ -97,12 +97,10 @@ a {
 
 .profile__social {
     width: 100%;
-    display: flex;
+    display: inline;
     column-gap: .75rem;
     text-align: center;
     align-items: center;
-    align-content: center;
-    justify-content: center;
 }
   
   .profile__social-link {
