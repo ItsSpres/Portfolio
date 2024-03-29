@@ -99,6 +99,7 @@ a {
     display: flex;
     
     column-gap: .75rem;
+    align-content: center;
   }
   
   .profile__social-link {
