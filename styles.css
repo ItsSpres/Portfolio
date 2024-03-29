@@ -68,7 +68,7 @@ a {
 
 .left-column {
     max-width: 300px;
-    justify-content: center;
+    
 }
 
 .right-column {
@@ -98,10 +98,8 @@ a {
 
 .profile__social {
     width: 100%;
-    display: grid;
+    display: flex;
     column-gap: .75rem;
-    text-align: center;
-    align-items: center;
 }
   
   .profile__social-link {
@@ -214,7 +212,7 @@ footer {
     justify-content: left;
 }
     .profile__social {
-        display: grid;
+        display: flex;
         justify-content: left;
         column-gap: .75rem;
       }
