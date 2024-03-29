@@ -83,6 +83,7 @@ a {
 }
 .profile__name {
     font-size: var(--h2-font-size);
+    justify-content: center;
   }
 .social-icons img {
     width: 50px;
