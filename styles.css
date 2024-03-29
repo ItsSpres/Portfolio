@@ -74,7 +74,12 @@ a {
 .right-column {
     max-width: 800px;
 }
-
+.profile-section {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
 .profile-section img {
     width: 100px;
     height: 100px;
