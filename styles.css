@@ -68,6 +68,7 @@ a {
 
 .left-column {
     max-width: 300px;
+    justify-content: center;
 }
 
 .right-column {
@@ -78,6 +79,7 @@ a {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    justify-content: center;
 }
 .profile__name {
     font-size: var(--h2-font-size);
@@ -89,7 +91,7 @@ a {
 
 .profile__social {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     column-gap: .75rem;
   }
   
@@ -196,7 +198,17 @@ footer {
         width: 70%;
         padding-left: 30px;
     }
-
+    .left-column {
+        justify-content: left;
+    }
+.profile-section img {
+    justify-content: left;
+}
+    .profile__social {
+        display: flex;
+        justify-content: left;
+        column-gap: .75rem;
+      }
     .projects-section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
