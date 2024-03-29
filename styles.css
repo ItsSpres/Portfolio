@@ -92,14 +92,14 @@ a {
   }
 .social-icons img {
     width: 50px;
-    margin-right: 10px;
+    
 }
 
 .profile__social {
     display: flex;
     
     column-gap: .75rem;
-    align-content: center;
+    justify-content: center;
   }
   
   .profile__social-link {
