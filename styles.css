@@ -75,6 +75,7 @@ a {
     max-width: 800px;
 }
 .profile-section {
+    display: grid;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -91,13 +92,13 @@ a {
     justify-content: center;
   }
 .social-icons img {
-    width: 50px;
+    width: 35px;
     
 }
 
 .profile__social {
     width: 100%;
-    display: inline;
+    display: grid;
     column-gap: .75rem;
     text-align: center;
     align-items: center;
@@ -213,7 +214,7 @@ footer {
     justify-content: left;
 }
     .profile__social {
-        display: flex;
+        display: grid;
         justify-content: left;
         column-gap: .75rem;
       }
