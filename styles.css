@@ -75,7 +75,6 @@ a {
     max-width: 800px;
 }
 .profile-section {
-    display: grid;
     width: 100%;
     justify-content: center;
     text-align: center;
