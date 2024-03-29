@@ -84,8 +84,6 @@ a {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    justify-content: center;
-    text-align: center;
 
 }
 .profile__name {
@@ -99,7 +97,7 @@ a {
 
 .profile__social {
     display: flex;
-    justify-content: center;
+    
     column-gap: .75rem;
   }
   
