@@ -54,6 +54,7 @@ body {
 
 ul {
     list-style: none;
+    justify-content: center;
   }
   
 a {
@@ -95,17 +96,21 @@ a {
     
 }
 
+  
 .profile__social {
     width: 100%;
-    display: flex;
-    column-gap: .75rem;
+    display: flex; /* Make links block-level elements */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    justify-content: center;
+    gap: 1rem;
 }
   
-  .profile__social-link {
+.profile__social-link {
     font-size: 1.25rem;
     color: var(--title-color);
-    transition: .3s;
-  }
+    margin-bottom: 10px; /* Add spacing between social links */
+}
   
   .profile__social-link:hover {
     color: var(--first-color);
@@ -198,23 +203,33 @@ footer {
     .left-column {
         width: 30%;
         padding-right: 30px;
+        
     }
 
     .right-column {
         width: 70%;
         padding-left: 30px;
     }
-    .left-column {
+    .profile-section {
+        justify-content: left;
+        text-align: left;
+        align-content: left;
+    }
+    .profile-section img {
         justify-content: left;
     }
-.profile-section img {
-    justify-content: left;
-}
+    
     .profile__social {
-        display: flex;
+        padding: 0; /* Remove default padding */
+        list-style-type: none; 
         justify-content: left;
-        column-gap: .75rem;
-      }
+    }
+    .profile__social-link {
+        display: block; /* Make links block-level elements */
+        margin-bottom: 10px; /* Add spacing between social links */
+    }
+     
+
     .projects-section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
