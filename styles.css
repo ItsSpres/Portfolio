@@ -112,9 +112,16 @@ a {
     margin-bottom: 10px; /* Add spacing between social links */
 }
   
-  .profile__social-link:hover {
+.profile__social-link:hover {
     color: var(--first-color);
-  }
+}
+.about-section {
+    text-align: center;
+}
+
+.skills-section {
+    text-align: center;
+}
 
 .about-section h2,
 .skills-section h2,
@@ -134,7 +141,9 @@ a {
     margin: 0;
 }
 
-
+h2 {
+    text-align: center;
+}
 
 .experience-row {
     padding: 2px 10px 10px 20px;
@@ -234,5 +243,17 @@ footer {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
+    }
+
+    .about-section {
+        text-align: left;
+    }
+    
+    .skills-section {
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
     }
 }
